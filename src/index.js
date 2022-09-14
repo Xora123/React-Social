@@ -4,12 +4,16 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Inscription from './components/Inscription';
+import Home from './components/Accueil';
 
 const router = createBrowserRouter([
   {
     path: "/inscription",
     element: <Inscription />,
   },
+  {
+    path: "/Home",
+    element: <Home/>},
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
