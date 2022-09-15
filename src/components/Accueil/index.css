@@ -1,0 +1,36 @@
+.main_div {
+    display: flex;
+}
+
+.post {
+    display: flex;
+    padding-bottom: 6%;
+    width: 60%;
+    padding-left: 11%;
+}
+
+.form_post {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.ajout_post{
+    width: 60%;
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 5%;
+    border-radius:25px;
+}
+.submit_post {
+    width: 10%;
+    border-radius: 25px;
+    background-color: white;
+}
+.image_post {
+    width: 100px;
+    height: auto;
+    margin-right: 5%;
+}
+.text_post {
+    background-color: white;
+    border: solid 3px #E74A24;
+}
