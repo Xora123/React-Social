@@ -1,0 +1,68 @@
+.layout{
+    background-color: white;
+    padding-bottom: 30%;
+}
+
+.logo {
+    height: 200px;
+    margin-left: 10%;
+    width: auto; 
+}
+
+.icon {
+    height: 30px;
+    width:auto;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.femme {
+    height: 55px;
+    border-radius: 50%;
+
+}
+
+.sub_menu {
+    padding-bottom: 10%;
+    margin-bottom: 12%;
+}
+
+.form {
+    display:flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.input {
+    border-radius: 30px;
+}
+
+.submit {
+    background-color: #E74A24;
+    color: white;
+    border-color: #E74A24;
+    margin-bottom: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 500px){ 
+.layout {
+    padding-bottom: 0;
+    }
+.logo {
+    margin-left: 35%;
+    height: 150px;
+    }
+    
+.menu {
+    display: flex;
+}
+}
