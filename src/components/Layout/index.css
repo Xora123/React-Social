@@ -53,8 +53,16 @@
     border-radius: 10px;
 }
 
-@media screen and (min-width: 600px   ) {
-    .layout {
-        display: hidden;
+@media screen and (max-width: 500px){ 
+.layout {
+    padding-bottom: 0;
     }
+.logo {
+    margin-left: 35%;
+    height: 150px;
+    }
+    
+.menu {
+    display: flex;
+}
 }

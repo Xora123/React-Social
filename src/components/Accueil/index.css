@@ -30,6 +30,7 @@
 
 .image_post {
     border-radius: 50%;
+    box-shadow: 12px 12px 2px 1px rgba(59, 59, 61, 0.2);
 }
 
 .submit_post {
@@ -49,4 +50,12 @@
     background-color: white;
     padding-left: 2%;
     box-shadow: 12px 12px 2px 1px rgba(59, 59, 61, 0.2);
+}
+
+@media screen and (max-width: 500px){ 
+
+
+.main_div {
+    display: inline;
+}
 }
