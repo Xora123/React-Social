@@ -5,11 +5,13 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'jquery/dist/jquery.min.js';
 import Layout from '../Layout/index.js';
 import femme from './femme.jpg';
+
 import $ from 'jquery';
 
 const Profil = () => {
   
     return (
+
     <div class="main">
         <Layout />
 
@@ -32,6 +34,10 @@ const Profil = () => {
     </div>
   
     </div>
+=======
+        <div clas="main_div"> 
+    <p>KIKOU</p>
+  </div>
     )
     }
   
