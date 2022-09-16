@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'jquery/dist/jquery.min.js';
 import Layout from '../Layout/index.js';
-import homme from './homme.png';
-import femme from './femme.png';
-import femme2 from './femme2.png';
+import homme from './homme.jpg';
+import femme from './femme.jpg';
+import homme2 from './homme2.jpg';
 import $ from 'jquery';
 
 const Home = () => {
@@ -18,7 +18,9 @@ const Home = () => {
     <div class="home">
       <form class="form_post">
         <input type="text" class="ajout_post" placeholder="Quoi de neuf docteur ?"></input>
-        <input type="submit" class="submit_post"></input>
+        <div class="button">
+          <input type="submit" class="submit_post"></input>
+        </div>
       </form>
       <div class="post">
         <img src={homme} class="image_post" alt="homme" ></img>
@@ -33,7 +35,7 @@ const Home = () => {
         </div>
       </div>
       <div class="post">
-        <img src={femme2} class="image_post" alt="femme2" ></img>
+        <img src={homme2} class="image_post" alt="homme2" ></img>
         <div class="text_post">
           <p class="p_post">Lorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknown</p>
         </div>

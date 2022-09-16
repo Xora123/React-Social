@@ -3,8 +3,8 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'jquery/dist/jquery.min.js';
-import logo from './logo.png';
-import profil_femme from './profil_femme.png';
+import Logo from './Logo.png';
+import profil_femme from './profil_femme.jpg';
 import message from './crayon.png';
 import accueil from './home_layout.png';
 import deconnection from './deconnection.png';
@@ -17,7 +17,7 @@ const Layout = () => {
     return (
         <div class="layout"> 
             <div class> 
-              <img src={logo} alt="logo" class="logo"></img>
+              <img src={Logo} alt="logo" class="logo"></img>
             </div>
             <form>
                 <div class="form">

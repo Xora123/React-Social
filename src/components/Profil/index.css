@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.user_profil {
+    margin-left: 23%; 
+    margin-top: 5%;
+}
+
+.femme_profil {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.name {
+    margin-top: 5%;
+    margin-left: 6%;
+}
+
+.user_post {
+    background-color: white;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-right: 30%;
+    box-shadow: 12px 12px 2px 1px rgba(59, 59, 61, 0.2);
+}
+
+.user_post2 {
+    background-color: white;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-right: 30%;
+    box-shadow: 12px 12px 2px 1px rgba(59, 59, 61, 0.2);
+}
+
+.user_post3 {
+    background-color: white;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-right: 30%;
+    box-shadow: 12px 12px 2px 1px rgba(59, 59, 61, 0.2);
+}
+
+.User {
+    margin-left: 15%;
+}
+
