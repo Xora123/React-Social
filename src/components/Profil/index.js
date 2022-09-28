@@ -11,35 +11,32 @@ import $ from 'jquery';
 const Profil = () => {
   
     return (
-
-    <div class="main">
+<>
+    <div className="main">
         <Layout />
 
-    <div class="User">
-    <div class="user_profil">
-        <img src={femme} class="femme_profil" alt="Photo de profil"></img>
-        <h1 class="name">Michelle</h1>
-    </div>
-    <div class="users_posts">
-    <div class="user_post">
-        <p class="user-text">Lorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknown</p>
-    </div>
-    <div class="user_post2">
-        <p class="user-text2">Lorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknown</p>
-    </div>
-    <div class="user_post3">
-        <p class="user-text3">Lorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknown</p>
-    </div>
-    </div>
+        <div className="User">
+            <div className="user_profil">
+                <img src={femme} className="femme_profil" alt="Photo de profil"></img>
+                <h1 className="name">Michelle</h1>
+            </div>
+            <div className="users_posts">
+                <div className="user_post">
+                    <p className="user-text">Lorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknown</p>
+                </div>
+                <div className="user_post2">
+                    <p className="user-text2">Lorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknown</p>
+                </div>
+                <div className="user_post3">
+                    <p className="user-text3">Lorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknownLorem Ipsum is e 1500s, when an unknown</p>
+            </div>
+        </div>
     </div>
   
     </div>
-=======
-        <div clas="main_div"> 
-    <p>KIKOU</p>
-  </div>
+  </>
     )
     }
-  
-  
+
+   
   export default Profil

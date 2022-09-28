@@ -44,30 +44,30 @@ class Home extends React.Component {
     return (
      
        
-       <div class="login-reg-panel">
-            <div class="login-info-box">
+       <div className="login-reg-panel">
+            <div className="login-info-box">
                 <h2>Vous avez déja un compte ?</h2>
                 <p>Veuillez cliquer sur le bouton se connecter</p>
                 <label id="label-register" for="log-reg-show">Se Connecter</label>
                 <input type="radio" name="active-log-panel" id="log-reg-show" value="log-reg-show" />
             </div>
                         
-            <div class="register-info-box">
+            <div className="register-info-box">
                 <h2>Vous n'avez pas de compte ?</h2>
                 <p>LVeuillez cliquer sur le bouton s'inscrire</p>
                 <label id="label-login" for="log-login-show">S'inscrire</label>
                 <input type="radio" name="active-log-panel" value="log-login-show" id="log-login-show" />
             </div>
                         
-            <div class="white-panel">
-                <div class="login-show">
+            <div className="white-panel">
+                <div className="login-show">
                 <h2>Connexion</h2>
                 <input type="text" placeholder="Email" />
                 <input type="password" placeholder="Password" />
                 <input type="button" value="Connexion" />
                 
                 </div>
-                <div class="register-show">
+                <div className="register-show">
                 <h2>S'inscrire</h2>
                 <input type="text" placeholder="Email" />
                 <input type="password" placeholder="Password" />
